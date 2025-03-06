@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #191919;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 30px;
+    color: #19f7d8;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #19f7d8;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('https://source.unsplash.com/1600x900/?india,culture') no-repeat center/cover;
+}
+
+.hero h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.hero span {
+    color: #19f7d8;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    background: #19f7d8;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: #19f7d8;
+}
+
+section {
+    padding: 60px;
+    background: #1c1c1c;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #19f7d8;
+}
+
+footer {
+    padding: 20px;
+    background: #191919;
+    text-align: center;
+}
+.link-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #19f7d8;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px #19f7d8;
+}
+
+.link-btn:hover {
+    background: white;
+    color: #19f7d8;
+    transform: scale(1.1);
+}
